@@ -1,0 +1,12 @@
+
+2016-12-30
+
+-Created initial gh-pages branch and added index
+-Made a Test Directory to learn how file storage and redirectories work. Pretty simple
+-Added jQuery Library to main index page
+-Added jQuery Element Manipulator feature with link in main page navbar.
+-Layout to jEM is almost done. No javascript functionality yet.
+-Added directs that navigate through the all the gh pages.
+-Styled up the jEM feature a bit to look a bit better.
+-Styled the main page navbar to stand out a bit more.
+NOTE: Not focusing on how pretty these features look right now. They are for test purposes only.
