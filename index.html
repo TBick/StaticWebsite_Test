@@ -5,23 +5,66 @@
 	<head>
 			<title>StaticWebsite_Test</title>
 
-			<script src="res/js/index.js"></script>
+				<!-- jQuery Library -->
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+				<!-- Main JS file to control main page -->
+			<script type="text/javascript" src="res/js/index.js"></script>
+
+
+				<!-- Style Sheets -->
+			<style type="text/css">
+				#nav-bar ul {
+					list-style-type: none;
+				}
+
+				#nav-bar li {
+					display: inline-block;
+				}
+
+				#nav-bar a {
+					text-decoration: none;
+					color: black;
+					background-color: #70DBDB;
+				}
+
+				#nav-bar a:hover {
+					text-decoration: underline;
+					background-color: #8DEEEE;
+				}
+			</style>
 	</head>
 
 
 	<body>
 		<h1>Test Website for Static Website Features</h1>
-		<h3>List of Features tested here:</h3>
-		<ul>
+
+		<div id="nav-bar">
 			<ul>
-				<li>Adding multiple directories under main repo site. For example: "tbick.github.io/StaticWebsite_Test/testdirectory"</li>
-				<li><a href="https://tbick.github.io/StaticWebsite_Test/testdirectory">Test Directory</a></li>
+				<li> <a href="./testdirectory/index.html">Test Directory</a></li>
+
+				<li><a href="./jqueryelementmanipulation/index.html">jQuery Element Manipulation</a></li>
 			</ul>
+		</div>
+
+		<!-- Temporary Todos until changelog is done -->
+		<div id="todos">
+			<h3>TODO's:</h3>
 			<ul>
-				<li>I don't know what</li>
-				<li>this will look like</li>
+				<li>Adding multiple directories under main repo site. For example: "<a href="./testdirectory/index.html">This</a>"</li>
+
+				<li>Practice jquery element manipulation</li>
+
+				<li>Make a blog style changelog. Includes updates to the website and any details of the feature implemented and tested.</li>
 			</ul>
-		</ul>
+		</div>
+
+		<!-- Change Log -->
+		<div id="changelog">
+
+		</div>
+
+
 	</body>
 </html>
 

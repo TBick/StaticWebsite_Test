@@ -1,0 +1,6 @@
+Date: 2016-12-30
+
+-Created initial gh-pages branch and added index
+-Made a Test Directory to learn how file storage and redirectories work. Pretty simple
+-Added jQuery Library to main index page
+-
